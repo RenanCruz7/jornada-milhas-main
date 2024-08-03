@@ -8,8 +8,12 @@ import { ModalComponent } from 'src/app/shared/modal/modal.component';
   providedIn: 'root'
 })
 export class FormBuscaService {
+  obterDadosBusca() {
+    throw new Error('Method not implemented.');
+  }
 
   formBusca: FormGroup;
+  formEstaValido: any;
 
   constructor(private dialog: MatDialog) { 
 
